@@ -262,8 +262,8 @@ body {
 }
 @media (max-width: 480px) {
   .footer__item {
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 4rem;
+    height: 4rem;
   }
 }
 
@@ -275,9 +275,9 @@ body {
 }
 @media (max-width: 480px) {
   .footer__item__icon {
-    width: 1rem;
-    max-width: 1rem;
-    height: 1rem;
-    max-height: 1rem;
+    width: 1.5rem;
+    max-width: 1.5rem;
+    height: 1.5rem;
+    max-height: 1.5rem;
   }
 }

@@ -92,7 +92,8 @@
 @media (max-width: 480px) {
   :root {
   --round-m: 0.75rem;
-  
+
+  --spacing-m: 1rem;
   --spacing-l: 0.8rem;
   --spacing-xl: 1.2rem;
   --spacing-3xl: 4rem;
@@ -103,9 +104,9 @@
   --font-size-4xs: 3vw;
   --font-size-3xs: 3vw;
   --font-size-s: 4vw;
-  --font-size-m: 5vw;
+  --font-size-m: 5.5vw;
   --font-size-l: 8vw;
-  --font-size-xl: 10vw;
+  --font-size-xl: 11vw;
   --font-size-2xl: 8.75rem;
   }
 }
