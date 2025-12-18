@@ -7,6 +7,11 @@ body {
 .text-indent-first {
   text-indent: var(--spacing-6xl);
 }
+@media (max-width: 480px) {
+  .text-indent-first {
+    text-indent: var(--spacing-4xl);
+  }
+}
 
 h1, h2, h3, h4 {
   font-family: var(--font-family-base);
