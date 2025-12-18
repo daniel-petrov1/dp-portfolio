@@ -1,0 +1,103 @@
+body {
+  font-family: var(--font-family-base);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-l); 
+}
+
+.text-indent-first {
+  text-indent: var(--spacing-6xl);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-family-base);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-m);
+}
+
+h2 {
+  font-family: var(--font-family-accent);
+  letter-spacing: var(--letter-spacing-s);
+  line-height: var(--line-height-s);
+}
+
+h3 {
+  font-family: var(--font-family-accent);
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-m);
+  letter-spacing: var(--letter-spacing-m);
+}
+
+h4 {
+  font-family: var(--font-family-accent);
+  font-size: var(--font-size-l);
+}
+
+.marquee__text {
+  white-space: nowrap;
+  font-size: 21vw;
+}
+
+@media (min-width: 1920px) {
+  .marquee__text {
+    font-size: 18rem;
+  }
+}
+@media (max-width: 991px) {
+  .marquee__text {
+    font-size: 25vw;
+  }
+}
+@media (max-width: 480px) {
+  .marquee__text {
+    font-size: 30vw;
+  }
+}
+
+.hero__title {
+  grid-column: 5/13;
+  font-family: var(--font-family-base);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-m);
+  letter-spacing: var(--letter-spacing-m);
+  line-height: var(--line-height-l);
+}
+@media (max-width: 767px) {
+  .hero__title {
+    order: 1;
+  }
+}
+
+.hero__link {
+  display: inline-flex;
+  white-space: nowrap;
+  font-family: var(--font-family-base);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-m);
+  letter-spacing: var(--letter-spacing-m);
+  line-height: var(--line-height-l);
+}
+@media (max-width: 767px) {
+  .hero__link {
+    order: 2;
+  }
+}
+
+.case__label {
+  display: inline-flex;
+  padding: var(--spacing-2xs) var(--spacing-xs);
+  background-color: var(--color-background-secondary);
+  border-radius: var(--round-max);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-m);
+  font-size: var(--font-size-4xs);
+}
+
+.case__text {
+  font-size: var(--font-size-s);
+  line-height: var(--line-height-l);
+  letter-spacing: var(--letter-spacing-m);
+}
+
+.card__description {
+  font-size: var(--font-size-3xs);
+}
