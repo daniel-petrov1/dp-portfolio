@@ -75,12 +75,14 @@
 
 @media (max-width: 767px) {
   :root {
+  /* --spacing-xs: 0.375rem; */
   --spacing-l: 1.1rem;
   --spacing-xl: 1.5rem;
   --spacing-4xl: 6rem;
   --spacing-5xl: 6rem;
   --spacing-6xl: 8rem;
   
+  --font-size-xs: 1.1rem;
   --font-size-s: 1.2rem;
   --font-size-m: 1.5rem;
   --font-size-l: 2rem;
@@ -96,6 +98,7 @@
   --spacing-m: 1rem;
   --spacing-l: 0.8rem;
   --spacing-xl: 1.2rem;
+  --spacing-2xl: 2rem;
   --spacing-3xl: 4rem;
   --spacing-4xl: 4rem;
   --spacing-5xl: 5rem;
@@ -104,6 +107,7 @@
   --font-size-4xs: 3vw;
   --font-size-3xs: 3vw;
   --font-size-2xs: 4vw;
+  --font-size-xs: 4.5vw;
   --font-size-s: 5vw;
   --font-size-m: 5.5vw;
   --font-size-l: 8vw;
