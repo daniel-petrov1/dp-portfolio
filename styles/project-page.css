@@ -173,7 +173,7 @@
 }
 
 .process__content {
-    padding-top: var(--spacing-5xl);
+    margin-top: var(--spacing-4xl);
     display: flex;
     flex-direction: column;
     gap: var(--spacing-2xl);
@@ -188,6 +188,12 @@
   .process__header-wrap {
     flex-direction: column;
   }
+}
+
+.process__header-wrap--bg {
+    padding: var(--spacing-2xl);
+    border-radius: var(--round-m);
+    background-color: var(--color-background-secondary);
 }
 
 .process__header {
