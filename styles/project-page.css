@@ -47,6 +47,11 @@
     height: 2rem;
     aspect-ratio: 1/1;
 }
+@media (max-width: 480px) {
+  .project-nav__icon {
+    height: 1.75rem;
+  }
+}
 
 .project-hero__logo {
     display: flex;
@@ -122,6 +127,7 @@
 @media (max-width: 480px) {
   .project-hero__name {
     gap: var(--spacing-2xl);
+    padding-top: var(--spacing-2xl);
   }
 }
 
