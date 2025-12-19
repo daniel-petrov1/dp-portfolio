@@ -22,10 +22,15 @@
     backdrop-filter: blur(40px);
     -webkit-backdrop-filter: blur(40px);
     color: var(--color-background-primary);
-    font-size: var(--spacing-l);
+    font-size: var(--font-size-s);
     line-height: var(--line-height-l);
     letter-spacing: var(--letter-spacing-m);
     transition: 0.2s;
+}
+@media (max-width: 480px) {
+  .project-nav__btn {
+    height: 3rem;
+  }
 }
 
 .project-nav__btn:hover {
