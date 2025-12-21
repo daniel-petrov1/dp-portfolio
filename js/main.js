@@ -108,8 +108,8 @@ const track = document.querySelector('.marquee__track');
 let pos = 0;
 
 function animate() {
-  pos -= 0.5; // скорость
-  if (pos <= -track.offsetWidth / 2) pos = 0; // сброс
+  pos -= 40; 
+  if (pos <= -track.offsetWidth / 2) pos = 0;
   track.style.transform = `translateX(${pos}px)`;
   requestAnimationFrame(animate);
 }
