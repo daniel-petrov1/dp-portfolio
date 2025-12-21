@@ -102,3 +102,16 @@ document.addEventListener("click", e => {
     })
     .catch(err => console.error("Copy failed:", err));
 });
+
+// marquue
+const track = document.querySelector('.marquee__track');
+let pos = 0;
+
+function animate() {
+  pos -= 0.5; // скорость
+  if (pos <= -track.offsetWidth / 2) pos = 0; // сброс
+  track.style.transform = `translateX(${pos}px)`;
+  requestAnimationFrame(animate);
+}
+
+animate();

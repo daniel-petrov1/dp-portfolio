@@ -1,4 +1,4 @@
-html {
+* {
   scroll-behavior: smooth;
 }
 
@@ -83,14 +83,14 @@ body {
   animation: marquee-scroll 40s linear infinite;
 }
 
-@keyframes marquee-scroll {
+/* @keyframes marquee-scroll {
   from {
     transform: translate3d(0, 0, 0);
   }
   to {
     transform: translate3d(-50%, 0, 0);
   }
-}
+} */
 
 .marquee__logo {
   overflow: hidden;
