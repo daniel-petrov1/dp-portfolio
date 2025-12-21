@@ -108,7 +108,7 @@ const track = document.querySelector('.marquee__track');
 let pos = 0;
 
 function animate() {
-  pos -= 40; 
+  pos -= 20; 
   if (pos <= -track.offsetWidth / 2) pos = 0;
   track.style.transform = `translateX(${pos}px)`;
   requestAnimationFrame(animate);
