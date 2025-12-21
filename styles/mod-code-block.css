@@ -1,0 +1,134 @@
+.mod-code {
+  position: relative;
+}
+
+.mod-code__block {
+  margin-top: var(--spacing-xl);
+  background-color: var(--color-background-secondary);
+  border-radius: var(--round-m);
+  overflow-x: auto;
+  position: relative;
+  padding: 0;
+}
+
+.mod-code__block-wrap {
+  position: relative;
+}
+
+.mod-code__block code {
+  position: relative;
+  display: block;
+  min-width: 100%;
+  width: max-content;
+  padding: var(--spacing-xl);
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: var(--font-size-4xs);
+}
+@media (max-width: 480px) {
+  .mod-code__block code {
+    font-size: var(--font-size-2xs);
+    padding: var(--spacing-2xl);
+  }
+}
+
+.mod-code__copy-btn {
+  display: flex;
+  gap: var(--spacing-3xs);
+  align-items: center;
+  position: absolute;
+  z-index: 50;
+  top: 15px;
+  right: 20px;
+  background-color: var(--color-background-secondary);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-2xs);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.mod-code__copy-btn:hover {
+  color: var(--color-text-primary)
+}
+
+.mod-code__block code {
+  white-space: pre;
+  display: block;
+}
+
+/* ====== Prism токены, цвета как в ChatGPT светлой теме ====== */
+
+/* Комментарии */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #6a737d; /* серый */
+  font-style: italic;
+}
+
+/* Ключевые слова */
+.token.keyword {
+  color: #d73a49; /* красный */
+}
+
+/* Теги */
+.token.tag {
+  color: #22863a; /* зеленый, для HTML тегов */
+}
+
+/* Атрибуты */
+.token.attr-name {
+  color: #6f42c1; /* фиолетовый */
+}
+
+/* Значения атрибутов и строки */
+.token.attr-value,
+.token.string {
+  color: #032f62; /* синий темный */
+}
+
+/* Числа, булевы, константы */
+.token.number,
+.token.boolean,
+.token.constant,
+.token.symbol {
+  color: #005cc5; /* синий */
+}
+
+/* Функции */
+.token.function {
+  color: #6f42c1; /* фиолетовый */
+}
+
+/* Классы и селекторы */
+.token.class-name {
+  color: #e36209; /* коричнево-оранжевый */
+}
+
+/* Пунктуация и символы */
+.token.punctuation {
+  color: #24292e; /* черный */
+}
+
+/* Операторы */
+.token.operator {
+  color: #24292e; /* черный */
+}
+
+/* Цвет CSS свойств */
+.token.property {
+  color: #005cc5; /* зеленый для background и других свойств */
+}
+
+/* Цвет значений CSS свойств */
+.token.css-value {
+  color: #032f62;
+}
+
+/* Подсветка при выделении текста в коде */
+code::selection,
+.token::selection {
+  background: #cceeff;
+}

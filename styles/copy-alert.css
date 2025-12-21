@@ -1,0 +1,19 @@
+.copy-alert {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: var(--round-max);
+  background-color: var(--color-background-inverted);
+  color: var(--color-text-inverted);
+  padding: 10px 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  z-index: 9999;
+}
+
+.copy-alert.show {
+  opacity: 1;
+  pointer-events: auto;
+}

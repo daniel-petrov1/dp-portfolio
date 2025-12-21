@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/16x16.png">
+    <meta property="og:site_name" content="Daniel Petrov">
+    <meta property="og:title" content="Stopping video when closing a popup in Webflow">
+    <meta property="og:description" content="Automatically stop video playback when closing a popup in Webflow. Lightweight and easy to integrate modification.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://danielp.vercel.app/">
+    <meta property="og:image" content="https://danielp.vercel.app/images/og/1200x630.webp">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Stopping video when closing a popup in Webflow">
+    <meta name="twitter:description" content="Automatically stop video playback when closing a popup in Webflow. Lightweight and easy to integrate modification.">
+    <meta name="twitter:image" content="https://danielp.vercel.app/images/og/1200x628.webp">
+    <meta name="twitter:image:alt" content="Portfolio of Daniel Petrov, Webflow Developer">
+
+    <title>DP Mods | Stopping video when closing a popup in Webflow</title>
+    <meta name="description" content="Automatically stop video playback when closing a popup in Webflow. Lightweight and easy to integrate modification.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/main.css">
+    <!-- Google Fonts: IBM Plex Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+</head>
+<body>
+    <div data-include="modification-nav" data-href="/modifications/"></div>
+    <div data-include="global-nav"></div>
+    <section class="hero section">
+        <div class="marquee">
+            <div class="marquee__track">
+                <h2 class="marquee__text">
+                    Stopping video when closing a popup in Webflow&nbsp;
+                    Stopping video when closing a popup in Webflow&nbsp;
+                    Stopping video when closing a popup in Webflow&nbsp;
+                </h2>
+
+                <h2 class="marquee__text" aria-hidden="true">
+                    Stopping video when closing a popup in Webflow&nbsp;
+                    Stopping video when closing a popup in Webflow&nbsp;
+                    Stopping video when closing a popup in Webflow&nbsp;
+                </h2>
+            </div>
+            <div class="marquee__logo"><img src="/images/dp-img.jpg" alt="Daniel Petrov portrait"></div>
+        </div>
+        <div class="container">
+            <div class="mod-hero mt-spacing-3xl">
+                <div class="mod-hero__num-wrap mod__num-wrap">
+                    <p class="mod-hero__num">ID: 001</p>
+                </div>
+                <h1 class="mod-hero__title">
+                    Stopping video when closing a&nbsp;popup in&nbsp;Webflow
+                </h1>
+            </div>
+            <div class="modification-media mt-spacing-3xl">
+                <img src="/images/modifications/modification-cover-1.webp" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="instruction section">
+        <div class="container">
+            <div class="instruction__content">
+                <div class="instruction__header-wrap">
+                    <h3 class="instruction__header">Step by step</h3>
+                </div>
+                <div class="instruction__steps">
+                  <div class="instruction__step">
+                    <div class="instruction__step-num">Step 01</div>
+                    <div class="instruction__step-body">
+                      <p class="instruction__step-title">
+                        Create your modal
+                      </p>
+                      <p class="instruction__step-description">
+                        Set the modal window sections/divs to position: fixed, add a video, and configure the visual styling and opening/closing animations.<br><br>Your modal must include at least the following elements:<br>1. the main container/div/section of the modal,<br>2. a close button (or another element to close the video),<br>3. and the video.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="instruction__step">
+                    <div class="instruction__step-num">Step 02</div>
+                    <div class="instruction__step-body">
+                      <p class="instruction__step-title">
+                        Assign the class
+                        <span
+                          class="instruction__step-span"
+                          data-copy="auto-stopper">
+                          auto-stopper
+                          <i class="fi fi-rr-copy instruction__step-copy-icon"></i>
+                        </span> to the main container / div / section of the modal.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="instruction__step">
+                    <div class="instruction__step-num">Step 03</div>
+                    <div class="instruction__step-body">
+                      <p class="instruction__step-title">
+                        Assign the class
+                        <span
+                          class="instruction__step-span"
+                          data-copy="auto-stop">
+                          auto-stop
+                          <i class="fi fi-rr-copy instruction__step-copy-icon"></i>
+                        </span> to the closing background.
+                      </p>
+                      <p class="instruction__step-description">
+                        If your modal closes only when clicking the cross or a dedicated button – skip this step.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="instruction__step">
+                    <div class="instruction__step-num">Step 04</div>
+                    <div class="instruction__step-body">
+                      <p class="instruction__step-title">
+                        Assign the class
+                        <span
+                          class="instruction__step-span"
+                          data-copy="auto-stop">
+                          auto-stop
+                          <i class="fi fi-rr-copy instruction__step-copy-icon"></i>
+                        </span> to the closing cross (close button).
+                      </p>
+                    </div>
+                  </div>
+                  <div class="instruction__step">
+                    <div class="instruction__step-num">Step 05</div>
+                    <div class="instruction__step-body">
+                      <p class="instruction__step-title">
+                        Assign the class
+                        <span
+                          class="instruction__step-span"
+                          data-copy="auto-stop">
+                          auto-stop
+                          <i class="fi fi-rr-copy instruction__step-copy-icon"></i>
+                        </span> to the video itself.
+                      </p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section class="mod-code section">
+      <div class="container">
+        <div class="mod-code__content">
+          <div class="mod-code__header-wrap">
+            <h3 class="mod-code__header">Code</h3>
+          </div>
+          <!-- Code block -->
+          <div class="mod-code__block-wrap">
+            <button class="mod-code__copy-btn">
+              <span class="mod-code__copy-text">Copy code</span>
+              <i class="fi fi-rr-copy instruction__step-copy-icon"></i>
+            </button>
+            <pre class="mod-code__block"><code class="language-js">&lt;script&gt;
+  // Modification for Webflow by Daniel Petrov
+  
+  var autoStopperBtn = document.querySelectorAll('.auto-stop');
+
+  for (var i = 0; i &lt; autoStopperBtn.length; i++) {
+    (function(i) {
+      autoStopperBtn[i].onclick = function () {
+        var autoStopperModule = autoStopperBtn[i].closest('.auto-stopper');
+        var autoStopperFrame = autoStopperModule.querySelector('iframe');
+        var autoStopperSrc = autoStopperFrame.src;
+        autoStopperFrame.src = '';
+        autoStopperFrame.src = autoStopperSrc;
+      }
+    }(i));
+  }
+&lt;/script&gt;</code></pre>
+        </div>
+        </div>
+      </div>
+
+    </section>
+    <div data-include="footer"></div>
+    <script src="/js/main.js" defer></script>
+    <script src="/js/includes.js" defer></script>
+    <div id="copy-alert" class="copy-alert">Code copied!</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.30.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.30.0/components/prism-javascript.min.js"></script>
+</body>
+</html>

@@ -13,7 +13,7 @@
 .project-nav__btn {
     width: auto;
     height: 3.75rem;
-    padding: var(--spacing-xs) var(--spacing-m);
+    padding: var(--spacing-2xs) var(--spacing-m);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,7 +150,7 @@
     justify-content: start;
     align-items: start;
     align-self: start;
-    gap: var(--spacing-xs);
+    gap: var(--spacing-2xs);
     height: auto;
 }
 @media (max-width: 767px) {
@@ -163,7 +163,7 @@
 .project-hero__tag {
     display: inline-flex;
     height: auto;
-    padding: var(--spacing-xs) var(--spacing-m);
+    padding: var(--spacing-2xs) var(--spacing-m);
     background-color: var(--color-background-secondary);
     border-radius: var(--round-max);
     color: var(--color-text-secondary);

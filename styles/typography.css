@@ -19,6 +19,13 @@ h1, h2, h3, h4 {
   line-height: var(--line-height-m);
 }
 
+h1 {
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--letter-spacing-m);
+  line-height: var(--line-height-l);
+}
+
 h2 {
   font-family: var(--font-family-accent);
   letter-spacing: var(--letter-spacing-s);
@@ -60,11 +67,6 @@ h4 {
 
 .hero__title {
   grid-column: 5/13;
-  font-family: var(--font-family-base);
-  font-weight: var(--font-weight-medium);
-  font-size: var(--font-size-m);
-  letter-spacing: var(--letter-spacing-m);
-  line-height: var(--line-height-l);
 }
 @media (max-width: 767px) {
   .hero__title {
@@ -89,7 +91,7 @@ h4 {
 
 .case__label {
   display: inline-flex;
-  padding: var(--spacing-2xs) var(--spacing-xs);
+  padding: var(--spacing-4xs) var(--spacing-2xs);
   background-color: var(--color-background-secondary);
   border-radius: var(--round-max);
   color: var(--color-text-secondary);
